@@ -10,7 +10,8 @@
   display: none;
 }
 
-@media (max-width: 479px) {
+
+@media (max-width: 768px) {
   .no-iphone {
     display: none;
   }

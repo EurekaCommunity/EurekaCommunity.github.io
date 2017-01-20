@@ -27,6 +27,55 @@
   width: 50vw;
 }
 
+@media(max-width: 899px) {
+  .window {
+    width: 65vw !important;
+  }
+
+}
+@media(min-width: 900px) {
+  .marvel-device {
+    margin-left: -10vw !important;
+  }
+  .window {
+    width: 51vw !important;
+  }
+}
+
+@media(min-width: 960px) {
+  .marvel-device {
+    margin-left: -5vw !important;
+  }
+  .window {
+    width: 45vw !important;
+  }
+}
+@media(min-width: 992px) {
+  .marvel-device {
+    margin-left: -20vw !important;
+  }
+  .window {
+    width: 60vw !important;
+  }
+}
+
+@media(min-width: 1297px) {
+  .window {
+    width: 56vw !important;
+  }
+}
+
+@media(min-width: 1298px) {
+
+  .window {
+    width: 50vw !important;
+  }
+}
+@media(min-width: 1620px) {
+  .window {
+    width: 45vw !important;
+  }
+}
 .window .titlebar {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ebebeb, color-stop(1.0, #d5d5d5)));
   background: -webkit-linear-gradient(top, #ebebeb, #d5d5d5);
