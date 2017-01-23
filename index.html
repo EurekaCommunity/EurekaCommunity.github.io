@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0032)http://eureka-9220a6.webflow.io/ -->
-<html data-wf-domain="eureka-9220a6.webflow.io" data-wf-page="584827dddd9f9960628787f9" data-wf-site="584827dddd9f9960628787f6" data-wf-status="1" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-opensans-n3-active wf-opensans-i3-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-i6-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-n8-active wf-opensans-i8-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-inconsolata-n4-active wf-inconsolata-i4-active wf-inconsolata-n7-active wf-inconsolata-i7-active wf-active">
-
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Eureka | Elegant iOS form builder in Swift by Xmartlabs</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Eureka | Elegant iOS form builder in Swift by Xmartlabs</title>
 
     <link rel="stylesheet" href="./css/all.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="./css/devices.min.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="./css/mac_window.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="./css/github-swift-styles.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="./css/eureka.css" type="text/css"> -->
-
     <script src="./js/webfont.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     WebFont.load({
@@ -28,7 +21,7 @@
 </head>
 
 <body>
-    <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <div class="navbar w-nav">
         <div class="w-container">
             <a class="w-nav-brand" href="#">
               <img class="navlogo" height="50" src="./images/eureka_logo.png" data-ix="bounce-in-scroll-in">
@@ -41,7 +34,6 @@
                 <div class="w-icon-nav-menu"></div>
             </div>
         </div>
-        <div class="w-nav-overlay" data-wf-ignore=""></div>
     </div>
     <a href="https://github.com/xmartlabs/eureka">
       <img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
@@ -51,39 +43,23 @@
       <div class="w-container">
         <div class="w-col w-col-12">
           <div class="no-iphone">
-            <div class="marvel-device iphone6 silver">
-              <div class="top-bar"></div>
-              <div class="sleep"></div>
-              <div class="volume"></div>
-              <div class="camera"></div>
-              <div class="sensor"></div>
-              <div class="speaker"></div>
-              <div class="screen">
-                <video autoplay loop style="width: 100%;">
-                  <source src="./images/EurekaDemo.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-                  <!-- Content goes here -->
-              </div>
-              <div class="home"></div>
-              <div class="bottom-bar"></div>
-            </div>
-            <div class="window">
-              <div class="titlebar">
-                <div class="buttons">
-                  <div class="close">
-                    <a class="closebutton" href="#"></a>
-                  </div>
-                  <div class="minimize">
-                    <a class="minimizebutton" href="#"></a>
-                  </div>
-                  <div class="zoom">
-                    <a class="zoombutton" href="#"></a>
+            <div class="w-col w-col-9">
+              <div class="window">
+                <div class="titlebar">
+                  <div class="buttons">
+                    <div class="close">
+                      <a class="closebutton" href="#"></a>
+                    </div>
+                    <div class="minimize">
+                      <a class="minimizebutton" href="#"></a>
+                    </div>
+                    <div class="zoom">
+                      <a class="zoombutton" href="#"></a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="content">
-                <div id="typed-strings">
+                <div class="content">
+                  <div id="typed-strings">
 <pre>
 <span class="tab-2"></span>form <span class="pl-k">+++</span> <span class="pl-c1">Section</span>()
 <span class="tab-3"></span><span class="pl-k">&lt;&lt;&lt;</span> <span class="pl-c1">TextRow</span>(){ row <span class="pl-k">in</span>
@@ -93,7 +69,7 @@
 <span class="tab-4"></span><span class="pl-smi">$0</span>.<span class="pl-smi">title</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Birthdate<span class="pl-pds">"</span></span>
 <span class="tab-4"></span><span class="pl-smi">$0</span>.<span class="pl-smi">value</span> <span class="pl-k">=</span> <span class="pl-c1">Date</span>()
 <span class="tab-3"></span>}</pre>
-                </div>
+                  </div>
 <pre>
 <span class="pl-k">import</span> <span class="pl-en">UIKit</span>
 <span class="pl-k">import</span> <span class="pl-en">Eureka</span>
@@ -107,6 +83,25 @@
                 <pre><code><span class="tab-1"></span>}
 }</code></pre>
 
+              </div>
+            </div>
+          </div>
+            <div class="w-col w-col-3 scale-container-05">
+              <div class="marvel-device iphone6 silver scale--05">
+                <div class="top-bar"></div>
+                <div class="sleep"></div>
+                <div class="volume"></div>
+                <div class="camera"></div>
+                <div class="sensor"></div>
+                <div class="speaker"></div>
+                <div class="screen">
+                  <video autoplay loop style="width: 100%;">
+                    <source src="./images/EurekaDemo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="home"></div>
+                <div class="bottom-bar"></div>
               </div>
             </div>
           </div>
@@ -127,7 +122,7 @@
       <div class="w-row">
         <div class="w-col w-col-3">
           <div class="white-box">
-            <img class="featureimages" data-ix="bounce-in-scroll-in" src="./images/save_time_coding.png" width="-1">
+            <img class="featureimages" data-ix="bounce-in-scroll-in" src="./images/save_time_coding.png">
             <h3 class="subtitle1"><strong class="subtitle1">Save time coding</strong></h3>
             <p class="bodyfeatures bodytext">By adding Eureka, you will be able to create powerful forms without all the repetitive and complex code required.
             You can also create dynamic forms out of the box!

@@ -1,15 +1,6 @@
-/* Extra CSS */
-/* Marvel Devices */
-.marvel-device {
-  margin-left: -190px;
-  position: relative;
-  zoom: 0.5;
-}
-
 .iphone {
   display: none;
 }
-
 
 @media (max-width: 768px) {
   .no-iphone {
@@ -19,7 +10,6 @@
     display: inline;
   }
 }
-/* End Marvel Devices */
 
 /* Fork Me from GH */
 .fork-me {
